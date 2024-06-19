@@ -2,6 +2,7 @@ from django.shortcuts import render, HttpResponse
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+plt.switch_backend('Agg')
 
 def home(request):
     return render(request,'index.html')
@@ -28,7 +29,6 @@ def new(request):
                     chart_path_1 = 'static/line/line_chart.png'
                     plt.savefig(chart_path_1)
                     context_1 = {'chart_path': chart_path_1}
-                    plt.show()
                     return render(request,'line.html',context_1)
             
                 else:
@@ -46,7 +46,6 @@ def new(request):
 
                     chart_path_2 = 'static/bar/bar_chart.png'
                     plt.savefig(chart_path_2)
-                    plt.show()
 
                     context_2 = {'chart':chart_path_2}
                     return render(request, 'bar.html',context_2)
@@ -75,7 +74,6 @@ def new(request):
                     plt.legend(loc='upper left')
                     chart_path_3='static\pie\pie_3.png'
                     plt.savefig(chart_path_3)
-                    plt.show()
                     context_3={'context':chart_path_3}
                     return render(request, 'pie.html',context_3)
                 else:
@@ -95,7 +93,6 @@ def new(request):
                     chart_path_1 = 'static/line/line_chart.png'
                     plt.savefig(chart_path_1)
                     context_1 = {'chart_path': chart_path_1}
-                    plt.show()
                     return render(request,'line.html',context_1)
             
                 else:
@@ -113,7 +110,6 @@ def new(request):
 
                     chart_path_2 = 'static/bar/bar_chart.png'
                     plt.savefig(chart_path_2)
-                    plt.show()
 
                     context_2 = {'chart':chart_path_2}
                     return render(request, 'bar.html',context_2)
@@ -142,7 +138,6 @@ def new(request):
                     plt.legend(loc='upper left')
                     chart_path_3='static\pie\pie_3.png'
                     plt.savefig(chart_path_3)
-                    plt.show()
                     context_3={'context':chart_path_3}
                     return render(request, 'pie.html',context_3)
                 else:
