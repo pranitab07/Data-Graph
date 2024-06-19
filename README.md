@@ -10,6 +10,6 @@ Key Features:<br>
 <br>
 How to Use: 
 
-1.Upload your Excel file or CSV file.                       
-2. Choose your desired chart type and options.                         
+1.Choose your desired chart type and options.                      
+2.Upload your Excel file or CSV file.                         
 3. Generate your chart or graph with just a few clicks.
