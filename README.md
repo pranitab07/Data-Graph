@@ -1,6 +1,6 @@
-<h1> DataGraph </h1>
-DataGraph : Simplify Data Visualization with Ease<br><br>
-DataGraph is a web application designed to streamline the process of creating graphs and charts from Excel files or CSV files. By simply attaching your Excel file or CSV files, you can generate a variety of graphs and charts with just a few clicks. Our aim is to promote simplicity and efficiency, allowing users to focus on analyzing their data rather than struggling with complex software.
+<h1> Data-Graph </h1>
+Data-Graph : Simplify Data Visualization with Ease<br><br>
+Data-Graph is a web application designed to streamline the process of creating graphs and charts from Excel files or CSV files. By simply attaching your Excel file or CSV files, you can generate a variety of graphs and charts with just a few clicks. Our aim is to promote simplicity and efficiency, allowing users to focus on analyzing their data rather than struggling with complex software.
 <br><br>
 Key Features:<br>
 1. Instant Visualization: Upload your Excel file or CSV file and get your charts and graphs within milliseconds.<br>
