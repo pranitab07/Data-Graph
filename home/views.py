@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 plt.switch_backend('Agg')
-
+type_new = ''
 def home(request):
     return render(request,'index.html')
 
