@@ -146,7 +146,6 @@ def new(request):
         return render(request,'index.html')
     
 def selection(request):
-    global type_new
     type_new=request.POST.get('graph_Type')
     type_1=type_new
     if (type_1 == 'line' or type_1=='bar'):
