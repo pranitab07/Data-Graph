@@ -3,7 +3,9 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-cs-eaaabd59-b03c-48b1-899d-2397bb888f0d.cs-asia-southeast1-cash.cloudshell.dev',
+]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
